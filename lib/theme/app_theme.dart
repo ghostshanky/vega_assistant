@@ -399,7 +399,8 @@ class AppTheme {
     scaffoldBackgroundColor: backgroundLight,
     cardColor: surfaceLight,
     dividerColor: Color(0xFFE0E0E0),
-    textTheme: _buildTextTheme(isDark: false), dialogTheme: DialogThemeData(backgroundColor: surfaceLight),
+    textTheme: _buildTextTheme(isDark: false),
+    dialogTheme: DialogTheme(backgroundColor: surfaceLight),
     // Additional light theme configurations would follow the same pattern
   );
 

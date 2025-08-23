@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-import '../../../../core/app_export.dart';
-import '../../../theme/app_theme.dart';
+import '../../../core/app_export.dart';
 
 class AnimatedThinkingOrb extends StatefulWidget {
   final bool isThinking;
